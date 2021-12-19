@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+
+    <meta charset="UTF-8">
+   <title>rateyourcollege.in</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="signup.css">
+    <link rel="script" href="login.js">
+      <meta name="google-signin-scope" content="profile email">
+    <meta name="google-signin-client_id" content="703759144814-e3mib97ktme1jiqfcmn0g3duh62opsuo.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="script" href="signup.js">
+</head>
+<body id="signform">
+<script src="signup.js"></script>
+<a href="index.html"><img class="imj" src="x-mark-icon-21.png" alt=""></a><p class="bg"></p>
+<div class="prof"><p class="s"></p><p class="log">Sign Up</p><p id="essage" style="color: red;text-align: center;position: center;font-size: 18px"></p><div class="foo"><p class="emil" >Email</p></div>
+    <label for="semail"></label><input type="email" id="semail" style="padding-left: 10px;" class="em"/>
+    <p class="pas">Password</p><label for="spassword"></label><input type="password" id="spassword"
+                                                                     style="padding-left: 10px" class="too"/>
+    <center><div class="sign"><p class="naa">Already have an account?</p><a class="su" href="login.html">Login</a></div></center><br><center><button type="button" class="login" onclick="signup()" id="signbutton" >Sign in</button></center>
+   <center><p>Or</p>
+    </center>
+    <p class="s"><div class="sigoogle">   <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+    <script>
+      function onSignIn(googleUser) {
+        // Useful data for your client-side scripts:
+        var profile = googleUser.getBasicProfile();
+        console.log("Email: " + profile.getEmail());
+
+        // The ID token you need to pass to your backend:
+        var id_token = googleUser.getAuthResponse().id_token;
+        console.log("ID Token: " + id_token);
+      }
+    </script></div>
+    <p class="term">By clicking the "Sign up" button, you are creating an account, and agree to 'RateMyCollege' Terms of Service and Privacy Policy</p></div>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script src="firebase.js"></script>
+<script src="login.js"></script>
+
+
+</body>
+</html>

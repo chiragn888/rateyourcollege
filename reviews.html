@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+     <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>rateyourcollege.in</title>
+<link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="ratemycollege.css">
+    <link rel="stylesheet" href="ratemycollege1.css">
+  <link rel="script" href="index.html">
+    <script src="rateyourcollege1.js"></script>
+<script src="review.js"></script>
+  <script src="firebase.js"></script>
+  <script src ="login.js"></script>
+</head>
+<body>
+<a href="mik.html" style="display: block;padding-bottom: 20px;"> <img class="imj" src="x-mark-icon-21.png" alt=""></a>
+
+<div id="workme" >College Reviews</div>
+<p class="hh">Reviews Based on Student Experience.</p>
+<p id="erp"></p>
+<center>
+<div id="frog">
+<label for="myInput"></label><input type="text"  id="myInput" style="border-radius: 25px;border-color: rgba(126,122,122,0.89)" onkeyup="myFunction()" placeholder="Search College">
+
+<ul id="myUL">
+    <li><a id="A P S COLLEGE OF ENGINEERING" onclick="getIds(this)">A.P.S COLLEGE OF ENGINEERING</a></li>
+    <li><a id="ACHARYS NRV SCHOOL OF ARCHITECTURE" onclick="getIds(this)">ACHARYS NRV SCHOOL OF ARCHITECTURE</a></li>
+    <li><a id="ACHUTHA INSTITUTE OF TECHNOLOGY" onclick="getIds(this)">ACHUTHA INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="ACS COLLEGE OF ENGINEERING" onclick="getIds(this)">ACS COLLEGE OF ENGINEERING</a></li>
+    <li><a id="ADARSHA INSTITUTE OF TECHNOLOGY" onclick="getIds(this)">ADARSHA INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="ADITHYA ACADEMY OF ARCHITECTURE AND DESGIN" onclick="getIds(this)">ADITHYA ACADEMY OF ARCHITECTURE & DESGIN</a></li>
+    <li><a id="ACHARAYA INSTITUTE OF TECHNOLOGY" onclick="getIds(this)">ACHARAYA INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="SIR M VISVESWARAYA INSTITUTE OF TECHNOLOGY" onclick="getIds(this)">SIR M VISVESWARAYA INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="NITTE MEENAKSHI INSTITUTE OF TECHNOLOGY"  onclick="getIds(this)">NITTE MEENAKSHI INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="BMS INSTITUTE OF TECHNOLOGY" onclick="getIds(this)">BMS INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="ATRIA COLLEGE OF ENGINEERING " onclick="getIds(this)">ATRIA COLLEGE OF ENGINEERING </a></li>
+    <li><a id="RV COLLEGE OF ENGINEERING" onclick="getIds(this)">RV COLLEGE OF ENGINEERING</a></li>
+    <li><a id="DAYANAND SAGAR UNIVERSITY" onclick="getIds(this)">DAYANAND SAGAR UNIVERSITY</a></li>
+    <li><a id="OXFORD COLLEGE OF ENGINEERING" onclick="getIds(this)">OXFORD COLLEGE OF ENGINEERING</a></li>
+    <li><a id="Cindy" onclick="getId(this)">Cindy</a></li>
+</ul><br><br>
+    <a href="rateyourcolege2.html" class="notfound">Didn't find college ?</a>
+    <script>function myFunction() {
+  // Declare variables
+  let input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent ;
+
+    if (txtValue.toUpperCase().indexOf(filter)) {
+      li[i].style.display = "none";
+    } else {
+      li[i].style.display = "";
+    }
+  }
+
+}
+
+
+</script>
+</div></center>
+<div id="o99o">
+<div id="avgrat"><p style="text-align: center">-------------Ratings-------------</p>
+ <center>
+    <br><br>
+<span class="heading"></span>
+<div id="op">
+    <span id="d1" ></span>
+    <span id="d2"></span>
+    <span id="d3" ></span>
+    <span id="d4" ></span>
+    <span id="d5" ></span>
+</div>
+
+<p id="golmal"></p>
+
+<div id="tri">
+<div class="row">
+  <div class="side">
+    <div class="fs">Campus </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="b5" class="bar-5"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div id="one"></div>
+  </div>
+  <div class="side">
+    <div class="fs">Faculties </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="b4" class="bar-4"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div id="two"></div>
+  </div>
+  <div class="side">
+    <div class="fs">Teaching </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="b3" class="bar-3"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div id="six"></div>
+  </div>
+  <div class="side">
+    <div class="fs">Libraries </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="b2" class="bar-2"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div id="four"></div>
+  </div>
+  <div class="side">
+    <div class="fs">Labs </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="b1" class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div id="three"></div>
+  </div>
+    <div class="side">
+    <div class="fs">Sports </div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div id="b0" class="bar-0"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div id="five"></div>
+  </div>
+</div>
+
+<br>
+</div>
+
+    <button id="see" onclick="seep()">See All Reviews</button>
+</center>
+    <br>
+   <p id="kn"></p>
+<p id="lik"></p>
+
+<br>
+<ol id="pople">
+
+</ol>
+<br><br>
+
+</div>
+
+</div>
+</body>
+</html>

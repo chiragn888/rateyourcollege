@@ -1,0 +1,135 @@
+
+.loo{
+    margin-left: 70%;
+}
+.loop{
+    display: block;
+}
+.prof{
+    alignment: center;
+    width: 500px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    height: auto;
+    background: #ffffff;
+    border-color: #c5c1c1;
+    border-style: solid;
+    border-width: 1px;
+}
+.em{
+    width: 400px;
+    height: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 18px;
+    border-color: #c5c1c1;
+
+    margin-bottom: 20px;
+}
+.log{
+    font-size: 26px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    text-decoration-thickness: 2px;
+    padding-left: 55px;
+    font-family: "Arial  Bold";
+    color: #050505;
+}
+.emil{
+    margin-left: 55px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    overflow: hidden;
+
+
+}
+.foo{
+display: compact;
+}
+.pas{
+    margin-left: 55px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    overflow: hidden;
+}
+.too{
+    width: 400px;
+    height: 45px;
+    font-size: 18px;
+    padding-left: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c5c1c1;
+    margin-top:0px;
+}
+
+.naa{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.su{
+    overflow: hidden;
+  text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #022c9a;
+}
+.login{
+
+    width: 300px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    background: #0f79f1;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0;
+
+}
+.forgot{
+    text-decoration: none;
+    color: #022c9a;
+    margin-bottom: 30px;
+
+}
+.s{
+    margin-top: 10px;
+}
+.bg{
+    padding-top: 160px;
+}
+.login:hover{
+    background: #ffffff;
+    color: black;
+     border-width: 2px;
+        border-color: #050505;
+    cursor: pointer;
+}
+@media screen and (max-width:415px){
+    .prof{
+        zoom: 70%;
+        padding-top: 0;
+    }
+    .imj{
+        zoom: 70%;
+    }
+    .bg{
+        padding-top: 50px;
+    }
+    .log{
+        font-size: 35px;
+    }
+
+}

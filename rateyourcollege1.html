@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <meta charset="UTF-8">
+    <title>rateyourcollege.in</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" href="ratemycollege1.css">
+    <link rel="stylesheet" href="signup.css">
+  <link rel="script" href="index.html">
+<script src="rateyourcollege1.js"></script>
+    <link rel="stylesheet" href="ratemycollege.css">
+  <script src="firebase.js"></script>
+  <script src ="login.js"></script>
+  <link rel="script" onclick="getId(this)">
+
+</head>
+<body>
+<a href="rateyourcollege1.html" style="padding-bottom: 20px"> <img class="imj" src="x-mark-icon-21.png" alt=""></a>
+
+<br>
+<p class="start" style="text-align: center">Rate Your College</p>
+<p id="hu"  style="display: block;margin: auto;padding-left: 200px"></p><center>
+<div id="frog">
+<label for="myInput"></label><input type="text"  id="myInput" style="border-radius: 25px;border-color: rgba(126,122,122,0.89)" onkeyup="myFunction()" placeholder="Search College">
+
+<ul id="myUL">
+    <li><a id="A P S COLLEGE OF ENGINEERING"  onclick="getId(this)">A.P.S COLLEGE OF ENGINEERING</a></li>
+    <li><a id="ACHARYS NRV SCHOOL OF ARCHITECTURE" onclick="getId(this)">ACHARYS NRV SCHOOL OF ARCHITECTURE</a></li>
+    <li><a id="ACHUTHA INSTITUTE OF TECHNOLOGY" onclick="getId(this)">ACHUTHA INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="ACS COLLEGE OF ENGINEERING" onclick="getId(this)">ACS COLLEGE OF ENGINEERING</a></li>
+    <li><a id="ADARSHA INSTITUTE OF TECHNOLOGY" onclick="getId(this)">ADARSHA INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="ADITHYA ACADEMY OF ARCHITECTURE AND DESGIN" onclick="getId(this)">ADITHYA ACADEMY OF ARCHITECTURE & DESGIN</a></li>
+    <li><a id="ACHARAYA INSTITUTE OF TECHNOLOGY" onclick="getId(this)">ACHARAYA INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="SIR M VISVESWARAYA INSTITUTE OF TECHNOLOGY" onclick="getId(this)">SIR M VISVESWARAYA INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="NITTE MEENAKSHI INSTITUTE OF TECHNOLOGY"  onclick="getId(this)">NITTE MEENAKSHI INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="BMS INSTITUTE OF TECHNOLOGY" onclick="getId(this)">BMS INSTITUTE OF TECHNOLOGY</a></li>
+    <li><a id="ATRIA COLLEGE OF ENGINEERING " onclick="getId(this)">ATRIA COLLEGE OF ENGINEERING </a></li>
+    <li><a id="RV COLLEGE OF ENGINEERING" onclick="getId(this)">RV COLLEGE OF ENGINEERING</a></li>
+    <li><a id="DAYANAND SAGAR UNIVERSITY" onclick="getId(this)">DAYANAND SAGAR UNIVERSITY</a></li>
+    <li><a id="OXFORD COLLEGE OF ENGINEERING" onclick="getId(this)">OXFORD COLLEGE OF ENGINEERING</a></li>
+    <li><a id="Cindy" onclick="getId(this)">Cindy</a></li>
+</ul><br><br>
+    <a href="rateyourcolege2.html" class="notfound">Didn't find college ?</a>
+<script>function myFunction() {
+  // Declare variables
+  let input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent ;
+
+    if (txtValue.toUpperCase().indexOf(filter)) {
+      li[i].style.display = "none";
+    } else {
+      li[i].style.display = "";
+    }
+  }
+
+}
+
+</script>
+</div></center>
+<div id="ntavl">
+<p id="collegename" ></p>
+    <center><div id="pl"> <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_bcmjcj8d.json"  background="transparent"  speed="0.7"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player></div></center>
+<p class="hed">-------- Feedback Form --------<p id="kkl"></p>
+
+<p id="fifi" >*** All fields are compulsory and must be entered to Submit ***</p><br>
+<br>
+<div class="feedback">
+    <form method="post" action="">
+      <div class="row">
+        <div class="column">
+          <p class="space"></p>
+            <label id="Campus"><p id="iop1"> Campus</p>
+<span class="star-rating">
+  <input type="radio" name="rating1" value="1"><i></i>
+  <input type="radio" name="rating1" value="2"><i></i>
+  <input type="radio" name="rating1" value="3"><i></i>
+  <input type="radio" name="rating1" value="4"><i></i>
+  <input type="radio" name="rating1" value="5"><i></i>
+</span></label></div>
+
+<div class="column">
+  <p class="space"></p>
+<label id="Faculties"><p id="iop2"> Faculties</p>
+<span class="star-rating">
+  <input type="radio" name="rating2" value="1"><i></i>
+  <input type="radio" name="rating2" value="2"><i></i>
+  <input type="radio" name="rating2" value="3"><i></i>
+  <input type="radio" name="rating2" value="4"><i></i>
+  <input type="radio" name="rating2" value="5"><i></i>
+</span></label></div>
+  <div class="column">
+       <p class="space"></p>
+      <label id="Teaching"><p id="iop3"> Quality Teaching</p>
+<span class="star-rating">
+  <input type="radio" name="rating3" value="1"><i></i>
+  <input type="radio" name="rating3" value="2"><i></i>
+  <input type="radio" name="rating3" value="3"><i></i>
+  <input type="radio" name="rating3" value="4"><i></i>
+  <input type="radio" name="rating3" value="5"><i></i>
+</span></label></div>
+    <div class="column">
+       <p class="space"></p>
+        <label id="Libraries"><p id="iop4"> Libraries</p>
+<span class="star-rating">
+  <input type="radio" name="rating4" value="1"><i></i>
+  <input type="radio" name="rating4" value="2"><i></i>
+  <input type="radio" name="rating4" value="3"><i></i>
+  <input type="radio" name="rating4" value="4"><i></i>
+  <input type="radio" name="rating4" value="5"><i></i>
+</span></label></div>
+      <div class="column">
+      <p class="space"></p>
+          <label id="Labs"><p id="iop5"> Labs</p>
+<span class="star-rating">
+  <input type="radio" name="rating5" value="1"><i></i>
+  <input type="radio" name="rating5" value="2"><i></i>
+  <input type="radio" name="rating5" value="3"><i></i>
+  <input type="radio" name="rating5" value="4"><i></i>
+  <input type="radio" name="rating5" value="5"><i></i>
+</span></label></div>
+        <div class="column">
+             <p class="space"></p>
+            <label id="sports"><p id="iop6"> Sports</p>
+<span class="star-rating">
+  <input type="radio" name="rating6" value="1"><i></i>
+  <input type="radio" name="rating6" value="2"><i></i>
+  <input type="radio" name="rating6" value="3"><i></i>
+  <input type="radio" name="rating6" value="4"><i></i>
+  <input type="radio" name="rating6" value="5"><i></i>
+</span></label></div></div>  </form>
+</div>
+<p class="space"></p>
+      <p class="space"></p>
+<br>
+<label id="oooo"> -------- Write about your college -------- </label><br/>
+      <form>
+      <br>
+          <form action=""><br><label for="mlo"></label><div style="text-align: center"><input type="email" placeholder="User name" id="mlo" name="usrname"  required/></div><br>
+                <label for="comm"></label><div style="text-align: center;"><input type="text" name="content" placeholder="Write abt your college.." class="text" id="comm"  required/></div>
+                  <br> <div style="text-align: center;"><button type="button" placeholder="submit" onclick="submite()" id="sub" >Submit</button></div>
+              </form>
+      <br>
+      <br>
+          <br><br>
+      </form>
+<script src="login.js"></script>
+    </div>
+
+</body>
+</html>

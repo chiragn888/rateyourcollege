@@ -1,0 +1,8 @@
+{
+  "name": "pythonProject",
+  "version": "1.0.0",
+  "devDependencies": {
+    "firebase": "^9.0.0",
+    "firebase-admin": "^9.11.1"
+  }
+}

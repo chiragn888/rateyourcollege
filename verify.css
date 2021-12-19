@@ -1,0 +1,29 @@
+.vertxt{
+    font-size: 40px;
+    text-align: center;
+    position: center;
+    display: block;
+    margin: auto;
+    padding-top: 300px;
+    padding-bottom: 30px;
+}
+.signir {
+
+        height: 45px;
+        width: 20%;
+        border-width: 0;
+        font-size: 20px;
+        border-radius: 5px;
+        border-style: solid;
+        font-family: "Arial  Bold", serif;
+        background: #0462ef;
+        color: white;
+    }
+
+    .signir:hover {
+        background-color: #ffffff;
+        color: black;
+        border-width: 2px;
+        border-color: #050505;
+        cursor: pointer;
+    }

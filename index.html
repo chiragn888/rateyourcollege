@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rateyourcollege.in</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+     <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+
+</head>
+<link rel="stylesheet" href="ratemycollege.css">
+<script src="index.js"></script>
+<script src="login.js"></script>
+<script src="firebase.js"></script>
+<body>
+
+
+<div id="titlebar" > <a href="login.html" style="text-decoration: none;">
+    <button id="we" class="but">Log In</button></a><a href="signup.html" style="text-decoration: none"><button id="me" class="signir">Sign Up</button></a>
+    <div class="profile" id="ce" onclick="userfun()"><img src="user-2.png"></div>
+
+</div>
+
+<div class="body" >
+    <div class="action" id="actionf" >
+        <div class="menu">
+            <p class="lopl" id="weaboo"></p>
+<ul class="lists">
+                 <li style="list-style: none"><img style="zoom: 9%" src="envelope.png"><a href="#" onclick="contactus()" style="text-decoration:none;color: white;text-align: center;font-size: 20px"> Contact Us</a></li>
+                 <li style="list-style: none"><img style="zoom: 9%" src="log-out.png"><a href="#" onclick="signut()" style="text-decoration:none;color: white;text-align: center;font-size: 20px">Logout</a></li>
+</ul>
+        </div>
+    </div>
+<p4>
+      <center><h1 class="heading">Rate Your College</h1></center>
+
+ </p4>
+    </div>
+ <sctipt src="index.js"></sctipt><br><br>
+<center><p class="p1"> Rate Your College is a site that helps
+    you find best colleges with a number of feedbacks from students studying or have studied in that college.</p></center>
+<br><br><div style="text-align: center;"><center>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_i7foopax.json"    speed="0.2" id="sear" style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+</center></div> <button class="qwq" id="13" onclick="foreasd()" >Rate Your College</button>
+
+
+<center><p class="low" id="aboutus" ></p>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_fcecpvzp.json" id="anmop"   speed="0.50" loop  autoplay></lottie-player>
+<p  class="rating">Let Others Know about your college be the first one to rate.A college (Latin: collegium) is an educational institution or a constituent part of one. A college may be a degree-awarding tertiary educational institution, a part of a collegiate or federal university, an institution offering vocational education, or a secondary school.
+
+In most of the world, a college may be a high school or secondary school, a college of further education, a training institution that awards trade qualifications, a higher-education provider that does not have university status (often without its own</p></center>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_p8LAfk.json"  id="anmop"  speed="0.25"    loop  autoplay></lottie-player>
+<p class="rating">No worries! your identity will be kept secreat.A college in francophone countries [fr]—France (see secondary education in France), Belgium, and Switzerland—provides secondary education. However, the Collège de France is a prestigious advanced research institute in Paris.</p>
+
+<br><br>
+    <a href="" ><img class="fb" src="5282541_fb_social media_facebook_facebook logo_social network_icon-2.png"  alt=""></a><br><p class="copyrights"  style="text-decoration: none;" > ©2020-2021 Rateyourcollege.in, All rights Reserved.</p>
+
+</body>
+<script>
+    firebase.auth().onAuthStateChanged((user) => {
+        if (user) {
+            document.getElementById('ce').style.display = 'block';
+            document.getElementById('me').style.display = 'none';
+            document.getElementById('we').style.display = 'none';
+        } else {
+            document.getElementById('ce').style.display = 'none';
+            document.getElementById('me').style.display = 'inherit';
+            document.getElementById('we').style.display = 'inherit';
+        }
+    });</script>
+</html>

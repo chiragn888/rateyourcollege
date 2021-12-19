@@ -1,0 +1,122 @@
+    #hed{
+        font-size: 70px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #anm3{
+        width: 300px;
+        height: 300px;
+        zoom:130%;
+    }
+    .p1 {
+
+            text-align: center;
+            font-size: 30px;
+            margin-left: 10%;
+            margin-right: 10%;
+
+        }
+    .qwea {
+            width: 350px;
+            height: 50px;
+            font-size: 25px;
+            border-radius: 10px;
+            border-style: solid;
+            background: #3daf03;
+            color: white;
+            border-width: 0;
+            font-family: "Arial  Bold", serif;
+            text-decoration: none;
+        }
+
+    .qwea:hover {
+        background: #ffffff;
+        color: black;
+         border-width: 2px;
+        border-color: #050505;
+        cursor: pointer;
+    }
+    .qwra {
+            width: 350px;
+            height: 50px;
+            font-size: 25px;
+            border-radius: 10px;
+            border-style: solid;
+            background: #3daf03;
+            color: white;
+            border-width: 0;
+            font-family: "Arial  Bold", serif;
+            text-decoration: none;
+        }
+
+    .qwra:hover {
+        background: #ffffff;
+        color: black;
+         border-width: 2px;
+        border-color: #050505;
+        cursor: pointer;
+    }
+     .fb {
+        width: 120px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: 30px;
+    }
+
+    .copyrights {
+        font-size: large;
+        text-decoration: none;
+        margin: auto;
+        bottom: 0;
+    }
+
+@media screen and (max-width:415px) {
+
+    .p1 {
+        text-align: center;
+        font-size: 10px;
+
+    }
+
+    .fb {
+        width: 55px;
+        height: 19px;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+
+    .copyrights {
+        top: 0;
+        font-size: 10px;
+        text-decoration: none;
+        bottom: 0;
+    }
+
+    #hed {
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-top: 60px;
+    }
+
+    #anm3 {
+        zoom: 80%;
+    }
+
+    .qwea {
+        width: 55%;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 6px;
+        margin-top: 30px;
+    }
+
+    .qwra {
+        width: 55%;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 6px;
+
+    }
+
+
+}

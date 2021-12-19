@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rateyourcollege.in</title>
+     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="signup.css">
+     <link rel="script" href="login.js">
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+
+</head>
+
+<body id="inputform">
+<a href="index.html"> <img class="imj" src="x-mark-icon-21.png" alt=""></a><p class="bg"></p>
+<div class="prof"><p class="s"></p><p class="log">Log in</p><p id="errormessage" style="color: red;margin:2px;display:block;text-align:center;font-size: 18px"></p><div class="foo"><p class="emil">Email</p></div>
+    <label for="lemail"></label><input type="email" id="lemail" class="em" style="padding-left: 10px"/>
+    <p class="pas">Password</p><label for="lpassword"></label><input type="password" class="too" id="lpassword"
+                                                                     style="padding-left: 10px"/>
+   <center><p class="naa"> Don't have an account?</p><a class="su" href="signup.html">Sign Up</a></center> <br><center><button onclick="login()" type="submit" class="login" id="loginbutton">Log in</button></center><p class="s"></p><center><a href="forgotpassword.html" class="forgot">Forgot password?</a></center></div>
+
+
+
+<script src="firebase.js"></script>
+<script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,534 @@
+
+    .p1 {
+        padding-top: 40px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    .image {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+    .searchbar {
+        height: 60px;
+        margin-left: auto;
+        margin-top: 30px;
+        margin-right: auto;
+        width: 75%;
+        color: black;
+        text-align: center;
+        font-size: xx-large;
+        display: block;
+
+    }
+
+    .heading {
+        text-align: center;
+        font-family: "Arial  Bold";
+        color: #ffffff;
+        font-size: 120px;
+        padding-top: 75px;
+    }
+
+    .content {
+        padding-top: 100px;
+    }
+
+    .body {
+        padding-bottom: 180px;
+        padding-top: 80px;
+        background-position: center;
+        background-size: 1500px;
+        background-repeat: no-repeat;
+        background-image: url("pexels-janko-ferlic-590493.jpg");
+        border-radius: 5px;
+        top: 0%;
+        right: 0px;
+        left: 0px;
+    }
+
+    .spacetop {
+        padding-top: 20px;
+    }
+
+    .low {
+        padding-top: 80px;
+    }
+
+    .notfound {
+
+        font-family: "JetBrains Mono ExtraLight";
+        color: #0f79f1;
+        margin-right: auto;
+        text-decoration: none;
+        margin-left: auto;
+        text-align: center;
+        font-size: 20px;
+        display: block;
+    }
+
+    .rating {
+        padding-bottom: 100px;
+        margin-left: 10%;
+        font-size: 22px;
+        margin-right: 10%;
+        text-align: center;
+        font-family: "Times New Roman";
+    }
+
+    .fb {
+        width: 120px;
+        height: 40px;
+        margin-right: auto;
+        margin-left: 30px;
+    }
+
+    .copyrights {
+        font-size: large;
+        text-decoration: none;
+        margin: auto;
+        bottom: 0;
+    }
+
+
+    .lo {
+
+        padding-bottom: 15px;
+        padding-top: 15px;
+        top: 0;
+        margin: auto;
+
+    }
+
+    .but {
+
+        height: 40px;
+        width: 120px;
+        font-size: 20px;
+        border-radius: 5px;
+        margin-left: 20px;
+        border-style: solid;
+        font-family: "Arial  Bold", serif;
+        background: #0462ef;
+        border-width: 0;
+        color: white;
+
+    }
+
+    .but:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+
+    }
+
+    .signir {
+        margin-left: 20px;
+        height: 40px;
+        width: 120px;
+        border-width: 0;
+        font-size: 20px;
+        border-radius: 5px;
+        border-style: solid;
+        font-family: "Arial  Bold", serif;
+        background: #0462ef;
+        color: white;
+    }
+
+    .signir:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    .qwe {
+        width: 350px;
+        height: 50px;
+        font-size: 25px;
+        position: center;
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+        border-style: solid;
+        background: #3daf03;
+        color: white;
+        border-width: 0;
+        font-family: "Arial  Bold", serif;
+        text-decoration: none;
+    }
+
+    .qwe:hover {
+        background: #ffffff;
+        color: black;
+        cursor: pointer;
+    }
+
+    .qwr {
+        width: 350px;
+        height: 50px;
+        font-size: 25px;
+        position: center;
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+        border-style: solid;
+        background: #3daf03;
+        color: white;
+        border-width: 0;
+        font-family: "Arial  Bold", serif;
+        text-decoration: none;
+    }
+
+    .qwr:hover {
+        background: #ffffff;
+        color: black;
+        cursor: pointer;
+    }
+
+    .qwq {
+        width: 400px;
+        height: 60px;
+        font-size: 32px;
+        position: center;
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+        border-style: solid;
+        background: #3e71f8;
+        color: white;
+        border-width: 0;
+        font-family: "Arial  Bold", serif;
+        text-decoration: none;
+    }
+
+    .qwq:hover {
+        background: #ffffff;
+        color: black;
+        border-width: 2px;
+        cursor: pointer;
+    }
+
+    #logaout {
+        margin-right: 5%;
+        float: right;
+        height: 40px;
+        width: 120px;
+        border-width: 0;
+        font-size: 20px;
+        border-radius: 5px;
+        border-style: solid;
+        font-family: "Arial  Bold", serif;
+        background: #0462ef;
+        color: white;
+    }
+
+    #logaout:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+
+    }
+    #titlebar{
+        background: rgba(8,9,8,0.58);
+        top:0;
+        padding-top: 20px;
+        border-style: none;
+        padding-bottom: 20px;
+        margin:0;
+        border-radius: 3px;
+        position: fixed;
+        width: 99%;
+    }
+     #anmop{
+       width: 300px;
+         height: 300px;
+         margin: auto;
+         zoom: 150%;
+    }
+     .profile{
+         zoom: 8%;
+        margin-right: 4%;
+        float: right;
+         top: 0;
+     }
+     .profile:hover{
+         cursor: pointer;
+     }
+    .action{
+        display: none;
+        position: fixed;
+        float: right;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-right :3%;
+        margin-left: 60%;
+        opacity: 100;
+        background: rgba(8,9,8,0.78);
+        width: 30%;
+        height: 45%;
+        padding-left: 30px;
+
+    }
+    .lopl{
+           color: #ffffff;
+         font-size: 24px;
+        font-family: "Arial  Bold";
+        margin-right: auto;
+        display: block;
+        margin-left: auto;
+    }
+    .lists li img{
+        max-width: 20%;
+        margin-right: 10%;
+    }
+    .lists li{
+        list-style: none;
+        padding: 0 0;
+        border-top:1px solid rgba(0,0,0,0.05);
+        display: flex;
+        align-items: center;
+        line-height: 5.2em;
+    }
+@media screen and (min-width:420px) and (max-width: 980px){
+    #weaboo{
+        font-size: 25px;
+    }
+    .action{
+         display: none;
+         margin-top: 0;
+        position: fixed;
+        float: right;
+       zoom:90%;
+        width:40%;
+        height: 40%;
+        margin-left: 40%;
+        padding-right: 5%;
+        margin-right: 1%;
+        padding-left: 5%;
+
+    }
+    .lopl{
+           color: #ffffff;
+       font-size: 24px;
+        font-family: "Arial  Bold";
+        margin-right: auto;
+        display: block;
+        margin-left: auto;
+    }
+    .lists li img{
+        max-width: 20%;
+        margin-right: 10%;
+    }
+    .lists li{
+        list-style: none;
+        padding: 0 0;
+        border-top:1px solid rgba(0,0,0,0.05);
+        display: flex;
+        align-items: center;
+    }
+    .profile{
+         zoom: 8%;
+        margin-right: 6%;
+         top: 0;
+     }
+
+}
+
+@media screen and (max-width:426px) {
+    #titlebar {
+        position: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 96%;
+        top: 0;
+    }
+    #weaboo{
+        font-size: 18px;
+    }
+    .action{
+         display: none;
+         margin-top: -15%;
+        position: fixed;
+        float: right;
+       zoom:70%;
+        width:40%;
+        height: 300px;
+        margin-left: 40%;
+        padding-right: 5%;
+        margin-right: 1%;
+        padding-left: 5%;
+
+    }
+    .profile{
+         zoom: 7%;
+        margin-right: 6%;
+         top: 0;
+     }
+
+    .lopl{
+           color: #ffffff;
+        font-size: 24px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: "Arial  Bold";
+    }
+    .lists li img{
+        max-width: 20%;
+        margin-right: 10%;
+    }
+    .lists li{
+        list-style: none;
+        padding: 0 0;
+        border-top:1px solid rgba(0,0,0,0.05);
+        display: flex;
+        align-items: center;
+    }
+
+    .body {
+        width: 99.9%;
+        height: 250px;
+        padding-bottom: 30px;
+        padding-top: 120px;
+        background-size: 500px;
+        background-position: center;
+
+        background-repeat: no-repeat;
+        background-image: url("pexels-janko-ferlic-590493.jpg");
+        border-radius: 5px;
+        top: 0;
+
+    }
+
+    .but {
+
+     height: 30px;
+        width: 80px;
+        font-size: 14px;
+        border-radius: 5px;
+        margin-left: 10px;
+        border-style: solid;
+        font-family: "Arial  Bold", serif;
+        background: #0462ef;
+        border-width: 0;
+        color: white;
+
+    }
+
+    #abtus {
+        display: none;
+    }
+
+    .but:hover {
+        background-color: white;
+        color: black
+    }
+
+    .signir {
+        margin-left: 10px;
+        height: 30px;
+        width: 80px;
+        border-width: 0;
+        font-size: 14px;
+        border-radius: 5px;
+        border-style: solid;
+        font-family: "Arial  Bold", serif;
+        background: #0462ef;
+        color: white;
+    }
+
+    .signir:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #logaout {
+        margin-right: 10px;
+        float: right;
+         height: 30px;
+        width: 80px;
+        border-width: 0;
+        font-size: 14px;
+        border-radius: 5px;
+        border-style: solid;
+        font-family: "Arial  Bold", serif;
+        background: #0462ef;
+        color: white;
+    }
+
+    #logaout:hover {
+        background-color: white;
+        color: black
+    }
+
+    .heading {
+        text-align: center;
+        font-family: "Academy Engraved ", Serif;
+        color: #ffffff;
+        font-size: 40px;
+        padding-top: 55px;
+    }
+
+    .p1 {
+        padding-top: 40px;
+        text-align: center;
+        font-size: 20px;
+
+    }
+     .qwq {
+        width: 60%;
+        height: 40px;
+        font-size: 16px;
+        position: center;
+        margin: auto;
+        display: block;
+        border-radius: 5px;
+        border-style: solid;
+         margin-top: 10px;
+        background: #3e71f8;
+        color: white;
+        border-width: 0;
+        font-family: "Arial  Bold", serif;
+        text-decoration: none;
+    }
+
+    .qwq:hover {
+        background: #c5c4c4;
+        color: black
+    }
+    #sear{
+        zoom:60%;
+    }
+    #anmop{
+        zoom:80%;
+    }
+     .rating {
+        padding-bottom: 100px;
+        margin-left: 4%;
+        font-size: 12px;
+        margin-right: 4%;
+        text-align: center;
+        font-family: "Times New Roman";
+    }
+     .fb {
+        width: 55px;
+        height: 19px;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+
+    .copyrights {
+        top:0;
+        font-size: 10px;
+        text-decoration: none;
+        bottom: 0;
+    }
+
+
+}
+
