@@ -1,19 +1,20 @@
 # rateyourcollege ⭐️
 A college rating website
 
-<img width="1420" style="border-radius:15px" alt="Screenshot 2022-03-27 at 8 33 40 AM" src="https://user-images.githubusercontent.com/65002995/160265856-5edce025-25aa-4221-898b-5902865fb875.png">
+<img width="1522" alt="Screenshot 2022-03-27 at 9 30 52 AM" src="https://user-images.githubusercontent.com/65002995/160266182-37b1149a-99a7-4b39-a3ae-c9e723f16310.png">
 
 <br>
 <br>
-<img width="1439" alt="Screenshot 2022-03-27 at 8 34 07 AM" src="https://user-images.githubusercontent.com/65002995/160265359-92b98a4b-718a-4fa8-9bce-9617371de3d6.png">
+<img width="1522" alt="Screenshot 2022-03-27 at 9 31 55 AM" src="https://user-images.githubusercontent.com/65002995/160266186-c7d8661d-27ab-47d2-bf84-3316cb4dd487.png">
 
 <br>
 <br>
-<img width="1440" alt="Screenshot 2022-03-27 at 8 53 14 AM" src="https://user-images.githubusercontent.com/65002995/160265654-235734a9-c3bc-4292-b4b2-f970aabfe5ad.png">
+<img width="1522" alt="Screenshot 2022-03-27 at 9 32 47 AM" src="https://user-images.githubusercontent.com/65002995/160266189-112752a3-752b-40f0-b1ae-e4e92044c7ec.png">
 
 <br>
 <br>
-<img width="1440" alt="Screenshot 2022-03-27 at 8 52 50 AM" src="https://user-images.githubusercontent.com/65002995/160265651-12cd5a03-513b-4af0-8100-4d7f8949e0c4.png">
+<img width="1522" alt="Screenshot 2022-03-27 at 9 34 51 AM" src="https://user-images.githubusercontent.com/65002995/160266192-6423593e-1452-4282-bc1a-e2c7e039a2bf.png">
+
 
 
 
