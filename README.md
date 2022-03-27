@@ -1,7 +1,7 @@
 # rateyourcollege ⭐️
 A college rating website
 
-<img width="1420" alt="Screenshot 2022-03-27 at 8 33 40 AM" src="https://user-images.githubusercontent.com/65002995/160265856-5edce025-25aa-4221-898b-5902865fb875.png">
+<img width="1420" style="border-radius:15px" alt="Screenshot 2022-03-27 at 8 33 40 AM" src="https://user-images.githubusercontent.com/65002995/160265856-5edce025-25aa-4221-898b-5902865fb875.png">
 
 <br>
 <br>
