@@ -3,15 +3,8 @@ A college rating website
 
 <br>
 <br>
-<img width="1435" style="overflow: hidden;
-    z-index: 99;
-    width:65%;
-    height: 600px;
-    margin-left: 450px;
-    border-radius: 10px;
-    display: block;
-    -webkit-filter: drop-shadow(100px 100px 150px rgba(0, 253, 222, 0.75));
-    margin-bottom: 50px;" alt="Screenshot 2022-03-27 at 8 33 03 AM" src="https://user-images.githubusercontent.com/65002995/160265713-681ebe88-3674-4f0f-938c-e4e725421b7c.png">
+<img width="1435" style="
+    -webkit-filter: drop-shadow(100px 100px 150px rgba(0, 253, 222, 0.75));" alt="Screenshot 2022-03-27 at 8 33 03 AM" src="https://user-images.githubusercontent.com/65002995/160265713-681ebe88-3674-4f0f-938c-e4e725421b7c.png">
 
 
 <br>
