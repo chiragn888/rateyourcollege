@@ -1,5 +1,8 @@
-# rateyourcollege ⭐️
-A college rating website
+# rateyourcollege 
+
+# A college rating website
+
+website - https://rateyourcollege-4da51.web.app
 
 <img width="1522" alt="Screenshot 2022-03-27 at 9 30 52 AM" src="https://user-images.githubusercontent.com/65002995/160266182-37b1149a-99a7-4b39-a3ae-c9e723f16310.png">
 
@@ -26,4 +29,4 @@ A college rating website
 
 
 <br><br>
-visit website👉: https://rateyourcollege-4da51.web.app
+
