@@ -60,7 +60,7 @@ firebase.auth().onAuthStateChanged((user) => {
 });
 }
 function contactus(){
-     const email = "brightbit888@gmail.com";
+     const email = ;
     const subject = "User Support";
     const body_start = "You can Contact us through email.%0D%0A %0D%0A We will get back to you shortly! %0D%0A %0D%0A Mention Your Query :  ";
     const mailto_link = 'mailto:' + email + '?subject=' + subject + '&body=' + body_start;
