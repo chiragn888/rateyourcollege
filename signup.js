@@ -8,7 +8,7 @@ function signup() {
         const password = lopassword.value
         firebase.auth().createUserWithEmailAndPassword(email, password)
             .then(() => {
-              location.replace("verify.html");
+              location.replace("index.html");
             })
             .catch((error) => {
                 document.getElementById("essage").innerHTML=error.message
