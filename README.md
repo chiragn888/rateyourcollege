@@ -1,6 +1,6 @@
-# rateyourcollege 
+# Rateyourcollege ⭐️
 
-# A college rating website
+## A college rating website
 
 ### Allows Students to Rate Colleges on their experience with various facilities like Sports, Education, Libary, etc. This data will be usefull for the students who are looking for colleges.
 ### Students have to SignUp with their Email Id, and they can choose their avatar if they do not want to disclose their identity. 
