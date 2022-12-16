@@ -2,6 +2,9 @@
 
 # A college rating website
 
+### Allows Students to Rate Colleges on their experience with various facilities like Sports, Education, Libary, etc. This data will be usefull for the students who are looking for colleges.
+### Students have to SignUp with their Email Id, and they can choose their avatar if they do not want to disclose their identity. 
+
 website - https://rateyourcollege-4da51.web.app
 
 <img width="1522" alt="Screenshot 2022-03-27 at 9 30 52 AM" src="https://user-images.githubusercontent.com/65002995/160266182-37b1149a-99a7-4b39-a3ae-c9e723f16310.png">
